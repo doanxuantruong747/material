@@ -19,7 +19,7 @@ function Page() {
             <Grid container rowSpacing={2} mt={1}  >
                 {
                     data.map((job) => job.postId === page &&
-                        <Grid key={job.id} item xs={12} md={3} lg={4} >
+                        <Grid key={job.id} item xs={12} lg={4} >
                             <JobCard job={job} />
                         </Grid>
                     )
